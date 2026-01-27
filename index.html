@@ -31,35 +31,6 @@
             },
         }
     </script>
-    <style>
-        body {
-            background-color: #050505;
-            color: #E2E2E2;
-            overflow-x: hidden;
-        }
-        /* Custom Utilities */
-        .noise-texture {
-            background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpAp8B1DxDtmf4hN_GqYZoxpM81V1t9cjhwx3vXpEBxfGH7H1zMKDqToVjeMseY1OFyfWmhWperImDtoYjN7TU1NIH_jnh2OhC_C_hhcgHUvWvw3H0SOSrVA4UZnLf-H_aYcxv4iEfqDN_MI7P0Q6cpOMh7KTC9h1aJXR7D0ND7XKf6lHuHMQBWqze_EXP1dLl0yHTfy_lUM-mutTIp62DgNfwwOC6PqpCkKeHeB9dUlFuJBGAOo6ObtK4-8HcmBIXw9VSKYrZog");
-            opacity: 0.04;
-            mix-blend-mode: overlay;
-        }
-        .seen-glow {
-            text-shadow: 0 0 15px rgba(255, 75, 110, 0.8), 0 0 30px rgba(255, 75, 110, 0.4);
-        }
-        .star-glow {
-            color: #FF4B6E;
-            text-shadow: 0 0 8px rgba(255, 75, 110, 0.5);
-        }
-        .frosted-glass {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
-            backdrop-filter: blur(40px);
-            -webkit-backdrop-filter: blur(40px);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-        }
-        .neon-tube {
-            box-shadow: 0 0 15px rgba(255, 75, 110, 0.4), 0 0 5px rgba(255, 75, 110, 0.2);
-        }
-    </style>
 <script type="importmap">
 {
   "imports": {
@@ -74,5 +45,6 @@
 </head>
 <body>
     <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>
