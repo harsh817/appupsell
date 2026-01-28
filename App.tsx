@@ -1,10 +1,10 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Layout from './components/Layout';
-import Part1Hook from './pages/Part1Hook';
-import Part2Mistakes from './pages/Part2Mistakes';
-import Part3System from './pages/Part3System';
-import Part4Offer from './pages/Part4Offer';
+import Layout from './components/Layout.tsx';
+import Part1Hook from './pages/Part1Hook.tsx';
+import Part2Mistakes from './pages/Part2Mistakes.tsx';
+import Part3System from './pages/Part3System.tsx';
+import Part4Offer from './pages/Part4Offer.tsx';
 
 const LandingPage = () => {
     return (

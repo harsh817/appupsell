@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { IMAGES } from '../constants';
+import { IMAGES } from '../constants.ts';
 
 const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, answer }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,8 +39,8 @@ const Part4Offer: React.FC = () => {
     };
 
     return (
-        <div className="pt-32 px-6 max-w-5xl mx-auto pb-40">
-            <div className="text-center mb-24">
+        <div className="pt-20 px-6 max-w-5xl mx-auto pb-40">
+            <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-6xl font-light text-white leading-tight mb-8">
                     This Used to Cost ₹8,488. <br/>
                     <span className="italic text-gold">Today It's Just ₹97.</span>
@@ -51,7 +51,7 @@ const Part4Offer: React.FC = () => {
             </div>
 
             {/* Pricing Card */}
-            <div className="relative mb-32">
+            <div className="relative mb-20">
                 <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent blur-3xl"></div>
                 <div className="relative bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-[3rem] p-10 md:p-16 shadow-2xl overflow-hidden">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50"></div>
@@ -108,7 +108,7 @@ const Part4Offer: React.FC = () => {
             </div>
 
             {/* Guarantee */}
-            <div className="relative mb-32 p-12 md:p-16 border border-gold/20 rounded-[3rem] bg-gradient-to-b from-gold/5 to-transparent text-center overflow-hidden">
+            <div className="relative mb-20 p-12 md:p-16 border border-gold/20 rounded-[3rem] bg-gradient-to-b from-gold/5 to-transparent text-center overflow-hidden">
                 <div className="absolute top-0 right-0 p-8 opacity-10">
                     <span className="material-symbols-outlined text-9xl text-gold">verified</span>
                 </div>

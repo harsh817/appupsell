@@ -1,42 +1,63 @@
+
 export const IMAGES = {
-    heroBg: "https://lh3.googleusercontent.com/aida-public/AB6AXuCYL4M83zH8dZVmEG1evA2EZbe0lBRNTQvC-_AQXUtt1ue_oRCHt6oHLDsEWOv8ZfZuP1lnDk_d3bF2Cpcc9Zvnom52RqhQBLlVs8iGFYHsfl9J_jGcENgISKH4SusOg465XwU4IFcGCvr_TZtpSBYzPlVUZe7Pnd7TYKsD5bqfyYIOcGSDf_pq0KUvOjW984CtBA4HWR1NwUWqTFWKQxzziaPGz1lJmpGCT1R_2e8avhFCL_VVDQX6xYBHmIPtVE7eQzdH92XO2w",
-    cityStreet: "https://lh3.googleusercontent.com/aida-public/AB6AXuBPRdkwkxRL_0dO9jDUIwI35vYooLmophVwRO317ac1Cxl1ZIwuZCzEUD1qVFmNXYRSpx6m_bcYfrxnRcSkwjeCT22rwrkmsNmwmnv4hKN3V9r_1orgqarXvNc7M45PaTH9_5wuVTEIvS-C2dyjb3VtNhChrFvRqgD48V0krAvFoqkxegv9qCrIagDaFg7GOOgzSU4jL-hUU7lXjuagO4xB1E37q8zdwx84ZqI2DtOk3TYASqIMp6Nm9DrDzNM1w5GGlgbsciT4xQ",
-    profileRiya: "https://lh3.googleusercontent.com/aida-public/AB6AXuCuRe5wpPffRwlcPsXGtHSKIQg4CRBAzZDNR-nCR_d5PD1pVXP1gd4mkqTcxuUMgAXHjPKdK-2OXmojbq-rC_b9hzO-g9lUH2cKrDd633VQSlHbXQG_XkUSvwnOlwexERZYCqNdfww3f4J1YMOIWOzOICAgGRsLrBxo-TDY0uakhb2GxEGPJLtu-j6u2ImqoCFsVWNmoY6qznOIqMCB5-PL7I4ZIJn9jz4UVdWTvJCex4i5Y10X2yl7K_Ns826AYMfFqkz5Mh2H5g",
-    phoneMediocrity: "https://lh3.googleusercontent.com/aida-public/AB6AXuAh0aegPDMwKHk_9AWuQvJ3-tN7gUlBITqbqMRXl86nRuHqrktI6wVDhAmVx2x5ixy_Yz90TRs6u9Dlvk0eAe75YkZLj9DHsnwtYFanC6fQJ8WWgAAdfAfNYJLmiJL-2TlRbB7q9SOyU0xrIr4OQkdu84HNZzBL22YF0oiDkDqJsGQzmU5Lc3Di8-051C_9SzNKkDOO-43aaS82g2CKnKAoU7RascP3Lu47AwRhbHTGYq9xAWs_mD9FJu-94VCuVrmhgdYKCQ5P8g",
-    part2Hero: "https://lh3.googleusercontent.com/aida-public/AB6AXuBA9jA6gqiKuRfnCYSyH8fqDm6bVBvGtgr4JmVet9cyJo4Aqj9qGXjRKB1TaXAMnbv1SeVbBT7dUKfldTc-WViZYAYEzNkdaOsdNpDlXBK4bQ7ZTjEH5UFFnulYPDSAdCgqK_xvytlsj-dxnOBjVc-1-3kpa_g8PJ1kLmAQf6YK9IK5-qLpkeFWbsaSZN0j6E3n192gE033G2xhTLBxP5c7-5W5JTB0sFSbVNjt793Uy2WTwMierz3hjQWbxC_zkJGgINeYzRCiKQ",
+    // Hero Background: High contrast, luxe Indian aesthetic (Saree/Modern Fusion in dark lighting)
+    heroBg: "https://images.unsplash.com/photo-1621784563330-caee0b138a00?q=80&w=2550&auto=format&fit=crop",
+    
+    // City Street -> Mumbai Night Skyline / Atmospheric
+    cityStreet: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?q=80&w=2531&auto=format&fit=crop",
+    
+    // Riya Profile: Clear, distinct Indian features (Desi girl next door vibe but polished)
+    profileRiya: "https://images.unsplash.com/photo-1596193433486-02333accdc13?q=80&w=1000&auto=format&fit=crop",
+    
+    // Phone Mediocrity -> Indian woman rolling eyes/bored
+    phoneMediocrity: "https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?q=80&w=1000&auto=format&fit=crop",
+    
+    // Part 2 Hero: THE COMPETITION - Intimate Indian couple in a rickshaw or club, showing connection
+    part2Hero: "https://images.unsplash.com/photo-1583307567634-9721665cb658?q=80&w=1000&auto=format&fit=crop",
+    
     avatars: [
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBFSsfoK9DwXFpgXDSr8dwv0jdJxMsqS2AhpjQNBKjVfY-vaqTuL_E4dInlQfvdqfnsjzTFGvseE9l04YsxtZVPKqL79sipW62xHi4cPrtmzspko2yuBH4d1mMh2GDNQ4cq28T75YY9PqSM8mFP88oP6-KWjm7r9t5KhJqQR7jAXCXS-aQcRueBIGWDYRibrg0cFBkGlmgiLoYEQLBPD_iT-arqYBm_RbPu4-MpFG6XxdPfCzkhHc_fK5bFMTkuEkPWYpR7W3RmxQ",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBMWRvQW9J8Al33SwmiNCCAT5XW_VcPIDIR0ehmMkNB5BIBh53Asdmi75Yswgpj65xVgMqOluPzkqSUhJpZgcIwAL88kUPZCy2RGi5xFfDzqOODr3QvCx5blmcPl712-ZW6IKd4iB78Fhv77fdBN2tMAtzZWIsqsDit23UzklMFLkueNEFo5y8Jnj4dhm10oBgPwF3YpAwbfFMPTyNqbelCqUITVQ-iuw4DYLUJdpmkoJmfJl0jQWSbdEofjEzEu2bsenJd-q0sGw",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAUS4drRpfAsw3NXk7Q1s6IvoeabSJz21aWX8cwhhnAgsA3BwkKIeY-or_inaHHcQqGcN7d1ULWjbmkQsi6rQqAiBCX8-vTdd-nxJw4HNffPaL_cM_7vKyMq7ZDAFOXaFA5KNfm30mETOi40BpsGAwJj9t_vxN0D6hOPUp5-5uGqSxGFr9Oz6hBDwOxlX-LLJanGQMvK7tiSf93VnLiRQfRH40Nq11CIXYFQKpk1ICgQMItDpVfbYXCgdtUJj-avn5FWVCEkzEGEQ"
+        "https://images.unsplash.com/photo-1507038732509-8b1a9623223a?q=80&w=200&auto=format&fit=crop", // Indian guy 1
+        "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=200&auto=format&fit=crop", // Indian guy 2
+        "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?q=80&w=200&auto=format&fit=crop"  // Indian guy 3
     ],
+    
+    // Mistakes: Explicit Indian Context - Bored Women vs Winning Men
     mistakes: [
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAcg0VC_mF9dHHVJO1z8CcNm8GXX7pYDbca32ntK_RZT0e-9De2AsI0UYa55-65XihhaVvqumnMGMKRefWOoHqxAQbo54R7DtEgtiLPSGpunv0Chwg8eN5uVPhaffY1skyxzb90XvWAGCrAUNSeGjwZ7KGMPraxMoqH7d8IkB42b5ZwLSDs6M-UkANcq7TemiVT1FksnAOiELh1jzIbHJOpbyvPineTNWXkYY5ozuSQ5z89ziTJXBY-NMRrDH8E6ngw_Eu17FVtNw",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAr5A_TVEeDZyJLuCQf-0dVvGHt4webbp_HM_7o6Twk41eGBbd0LMGbQuPvxxP869lkIBC8gM69Vhe3mmGxcCSEi6kZMdQbFzPSc63KGu_yEmF4uevbCC_2EQ5YYXn4gd-aBIriA6ZgOQ15QUjoQXrN1cx4vyIGyhGvDc9NJPAh23OXn6DH0wBPu-Tqjo4DI3tg6xdijtPX6Pb2Kb7_f5UBgnAtMNHNLJz7dygzK47rEQj5O88USsPSCoUqGrEU1pq9NLNp6Mh1fA",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBsnuqKUoyFXcvDcp2vHwV4owfLGL8v8sNe9IqZv-bVQU3pv6q8DViXvC3PuHKOp44Y9eiL6BRkYeeCRuBAAYkjQHBtDybavvCHDiKFtu8Jaaa5ClwR1yabDMWA0fmgJPbqg-KWnQRpWZkXiQVjU6WgATgjbQLJbQYE3GvBFwsQuozBx3OogWqrIX6F5J_wC7Pn4DXdCKqG38a5i5h1iFgNztGs4tYriki4lh6EbYrpfr9vKJynw1L6ogkYQzVMq1SLSN9DeJ12sQ",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDeVSUH3oyjrgOHL5d8FFHqUQXrofFY53wLNz0n0d4ixVGnfUmMzIJdgDVbEdTOuKyZoClsWdFIYIURLyn0-aXwyJ6H9Ub4g8dxcm7wW_c_7zanSg-F974ouktv5qF3rPcpCKAaAKZSi4281H2hu_N8eU_V-vCpQap5FUjE9oe-JZKxFB652tGBnFuQ1dETYj7L44f05QseXXWW8fQLGJhsYioDtbMOemE7Z_RlYvkISemHBpdfzrH3FvW4xRDIts4VOGnRKF0OQw",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCtdsYXOOwyqxTxhiJrGaXOoSp88HzXpyuf2neSEzq8ekwZYPWy2ndnCxOmCbpm5hpiQTwMjUqgZFHroyPuZm_P2QjaqGLbnQWKo4i19E_GJjWhbw_0TXl_vIpazPqQ4orsy5gAn0pcp4hlI8n3NcyLwoca7x5XKpv8gHP7Jdh1sJ8AKIT1z2QDFiZuV-Y7xrS0gg_T4D_9Eyr72TMFAT-KACt5DxT3IB3VcpHQ1idCP8r6SiV0jbwjRw4K6CIoypi2tog8wJw4Jg",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBh52Btm4I8EiyE_zGdBz_eTOgHFiMaTZj99XPsob8GnQ7bdAEzDig9MnTjtLD0fm0woMnUKTXceSTcfHE332zmL2UouklxzqM0K4xJidSx46zG1WLyncrZWU9LtXJXfElQEJ4HhdTz3IlSmMw_J-_u06ni8YeUM61tOF0IUASEPlvwXrMQbz8JBIjatMKQCT6A3KTaXnVFJPAsjdSXUJ8zJrJQw60egHsKa7gpKm7qZwRDDDqmCLNbjeu6AXoqk_j_m7OiwYEEFA",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCjjVdLsmk95tbesphxJQck7r1ntBSnAuVJVXkj7k2BjYqNCSZ-I7wmJHd4dLpEVTiBnuHPovND0m5rUJMowpvvErUlqULJ49M5_nfyGfcVWJd7iFRDxx56BZq65yvDakNIModspCHETTBt5x4_tWdvieFFGUIn2FpcDj1vQnoVCrFCXZVtfOaAyaHdh25Q_OhhWVzMRkbbkQsBKsQwlElO23ZQWuja8wkQB5RiXfqzLOboq0WYXSb1zqVAA47-uJRy0zrxJGzjug"
+        // 1. Too available -> Indian girl looking at phone, annoyed/waiting (saree/kurta hint)
+        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?q=80&w=800&auto=format&fit=crop",
+        
+        // 2. Interview questions -> Disconnected, looking out of window (Mumbai vibe)
+        "https://images.unsplash.com/photo-1519067756611-654876b001d2?q=80&w=800&auto=format&fit=crop",
+        
+        // 3. Too logical -> CHALLENGE: Intense eye contact from a couple (She's looking at HIM, not you)
+        "https://images.unsplash.com/photo-1596193433486-02333accdc13?q=80&w=800&auto=format&fit=crop",
+        
+        // 4. Not reading energy -> Sassy expression, hand on hip/face (Indian expressive)
+        "https://images.unsplash.com/photo-1534126416832-7984d1491741?q=80&w=800&auto=format&fit=crop",
+        
+        // 5. Overthinking -> Lonely guy vs Confidence (Shadowy, moody)
+        "https://images.unsplash.com/photo-1605369559380-a309ef381405?q=80&w=800&auto=format&fit=crop",
+        
+        // 6. Not escalating -> CHALLENGE: Indian guy whispering in her ear (Seduction)
+        "https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=800&auto=format&fit=crop",
+        
+        // 7. Sound like everyone else -> She's walking away into the night (Saree back view)
+        "https://images.unsplash.com/photo-1616002411355-495288961503?q=80&w=800&auto=format&fit=crop"
     ],
-    part3Hero: "https://lh3.googleusercontent.com/aida-public/AB6AXuA1Jy12ouaTlpv3D5VbraogXCwZxGgvi9kSCz-5UsKf7pbU6IrybHcdfgoY-nt6M8DPmltodSNT3VJqjF6hUCSvI95ielbCPokg9GFIOWc0x7adlVRYO2RAfI3yQTdf_kt9BMaFCuusdHs2ZDsKsiUEhoT5-Eda7SCTy_KlwY7Lg1TnxCfyAnai61uC2FsAnXyu3MAZo3bLEmw_a2sWzfCtsYZW2I968YVxTnU07sp8gTFW-KPfiYSRauKSm9IsQGhOTYDVY3WhrQ",
-    expert: "https://lh3.googleusercontent.com/aida-public/AB6AXuA18PP49UGS0p7fR7kxWl6XVOgFsoAOG-xHIsMuuxucg09op_qSd_4DarPVgKjD7a-r0nCKH58D6iRkPCjPCSeI_gpN5xg0_oCsf9Df2rNydo4M4KOwSud2mXGQPekj2xcplt_s5Oi-zdlFt0EdOwHXOTxel4YFKq7pxSuPPSaU6cuwNY1ChyIhJHLHbcyGUVojecrEIBTeC0b8fB9QGBWeMGOYh50NhCQR3-lb640mIlXsn3m1wf4CBl8R-0OVxC_AYajJFQaChg",
-    expertWorking: "https://lh3.googleusercontent.com/aida-public/AB6AXuASs82HuR7_8zGgMF3EOeSwDwGQT8ToZM1iFCuIkferu79vU2FxdsNUfOlOh15vOumAHh40EdnXz-aMHWynYio82DhIgdn_dhbtyFx9s2b8KTpBqz-_ivDGWpN0gmC8rJyACQO5mHH76o5CyfeSG1D5Y-x_H6m5v79MSyqHnjEf87izJxkod127wXhlR8mc4Ms77QhqS7xnlS__PCOKejNVmm_MqlJS770yxEB6pVozsLdt7z9vm7bH5FLK1I6KYRrCunDXNFwWPA",
-    oldWay: "https://lh3.googleusercontent.com/aida-public/AB6AXuA9ut3uWTuaXlR1T5FZzuQkr1ff35KpA4A_0-_LYHGbdAg__R1UkpUc-ZISySGN0XFSf0Pqx_eP0Ss-WBa4b4adqfZwuIqqalNLAfrLr13da_LqLqwzvDACtR0QY0JSNP8EpZB4ay1ulEWcWplvISMiXgF1zxCoGW5Uw6Pk4c7ruZSBaypoZG92eoQQUSbLqNIyxHfHsKYKnIB8BOwFarLDH5KZZWIhVIA_YfFvj3WEHBR2WblcbWM2d_Kdq7_K1RMnY6fUm-zAVw",
-    newWay: "https://lh3.googleusercontent.com/aida-public/AB6AXuBL8ICkBzDXQjh1S8uCmKCRebqrOhUVegocp07GactT9gjs-spuIgr1ktsNZBwfpN5Lu7cXpfCmbYFuI37fjBH1CxQ7PAzajZMJTV_TtcIEJfS3oNNIxr0_XVRjbIqkqrQAvIZo6u6zhMts7q75HhRdU_TPst9-EPbTWmhFK9irEE-UVL6cMsEIDZEhXHgdZNtBA4E7xDU77Gn2DHNvY25AvuUhbrjQReTHWYT51wjfkQv44URPWWCi1s-jRJJbCXAdj00OPEpZLg",
+    
+    // Part 3 Hero: Confident Indian Man
+    part3Hero: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1000&auto=format&fit=crop",
+    
+    expert: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&auto=format&fit=crop",
+    
+    // Expert working
+    expertWorking: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop",
+    
     testimonials: [
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBspJoW3sWOfydNUo88Nzy82yj9E9eZZWjxOHWag83Su9YYopr7ispm-79ghN6yNP3iAoUp8rllmoW2BAAkKlMoSMycXtj9F1fyNFIRynbUfBQI2cc8fScKAuXFmm6KcwH8KQp60sLtmckpUI24HycKHO8F9mTbGlSym5dL8ZRR1Gk5HA4POm4xnfTnLhRVAQK-qlXTSGLqJ_Tnj9HdAOW1nKmXqUtDAeWlpcKZE6e604OkpN7rWEJrQROAXc-sN-uumQlgxurzrw",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuADiVHQ6r0P--obruNoqGVU8lbtmjn2QanoDy5F6C10fgU0Xo9CHvVa0yMFym8Vg1QtG4qxxaa9fhL9zcgmD0fmo9ty4vsDTHUYzcOkl6N8IrxNch2uIP9gSyHWDJz0QsEUFTwh3aonOKqeA97cD58G1FRz5D0uptuNeCCy3JoRcXrfmy4iWJiHGV_qc54T2CzCNaJTj1Vh_gYcpMJBEaozTWdAXVQDZBcNKlyhLqRqNdEQPgwIrPTGb1Z-qdhcaWW6J6pzL5pT4Q",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBU_Z7x_RFJtV7ifATec-pnBGWGP4_XTZeSEhNlF73UMX-U3AUefoe3p8MuaE4AUrTeyOMaXO1E0p03iFACwByDXeyjOc67yIXIt2hFhsaElDapGUSxGX-qUBDmIzdfqWHHuEApZ0L0YmfuRx7IZ_E2swwA_yuGhxCMD995pFdDSNjcThhvpv6JkXNHRbBEvwjOS8D6DeHqtqR_iP1MUc3-0JMBvkXFt5dY2hpTZ1tqcxwLNdklqb133XFtbNLLZ1Rb8tBuVKaICA",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCVtHvKGmYAqfYKVoE6Zy8QBjw7hYClRQJ7zwgbbGbWUByBzdEbKYSqKU2tEmDM_WpjtjtoGOSC8upbonLMswY4BlN5rwFDsXTS5lEZJnqzM0Mgacl4r_fg3GjmHDmIQqvwtkI-HhXjHp_HETD6GFy3lOEJlKq6-sznezVw8lvFAJtt57s_jVMH7l88Z7jEWI6z9KnsTVDQjXO1j5TIFsrKHFbwBXSiihWCytn8R-RGX5pYtPlAE15rEYPwAL4OaisQ9W6suksJug"
+        "https://images.unsplash.com/photo-1507038732509-8b1a9623223a?q=80&w=200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?q=80&w=200&auto=format&fit=crop"
     ],
-    offer: {
-        movie: "https://lh3.googleusercontent.com/aida-public/AB6AXuBrxXUBrX9-xdndIapRH4OGV36McT8udrBFYA7OC8L_kCvR5g_LozLXWSQPpeQxFYjHxzEoGO93x_Z5zIyOATH4LSOyiW-JayWdFx9sM_f4s262HNjdr__XsZuwvdoxskMis9Yr629L6Z4ENIy6kIDbAWlEoNMdkCPBRx4oYZRlaHXWKb0q_rh_ULPCQ7pK8-yQQpRIVe7EJ_xuwURFIU-RHDg9Erf6MGyb2AnYautTJarEovQYzlV_zXLgAkeDtRPGZjRoXFz9fg",
-        roadtrip: "https://lh3.googleusercontent.com/aida-public/AB6AXuAJuynWqROGckVrrKTqtUoaWNcY5XwbWkdGZA6ctm1QCDSs7xbyKah5G3afucHre28x2kF6pJC9Ke389GiJX7-VA8W5Sb_kpo8wfbJnACy0EqBAZDNFiZGK_KqX1qqfZQWs-ssIIOPYrgXRJ1qdAj7Ldb9mYNIrDTTqoDlVqjNIHzkvM72kBGAMuenKFlzRXbve2haEadPgzx9X4oNo65yUZKdg1xUBjFi1QFlRj-bBF8-g95Lq66Mik09lP0eGMkbW2jQJJ-gYEg",
-        dinner: "https://lh3.googleusercontent.com/aida-public/AB6AXuDMl2vsUZxrf3Q8ug8w_U4bjsds8D_fsLAO62SDFLX0vNPesN8d-jbIohlW3RI5wV8x1FxdGzpFb1ohnry1PxV-LbL1xiNB_t3Oz-OpjXzZ8r36LDHikTxUautbuK9iJoiKyLKuz3h813Ex3gFeKo6s6ujDsRxiT2FAaGe18mDvZi2Mo_a5Rf9rf3Pv-mhUe4DXHVeolmGkKEYXIt7lU0xpj8VLjfqjqJj8Uyq1n8r_ohyV5t-mArdi_ykhX4d_1Ww9VbRyWawf3A",
-        phoneLonely: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVfWRC7mMuv9hqrIKVdINrhfT0th-XRD6oN0sroeYOrRdj3BKoiX_2aBOXFKBkWG0vTXh43zQrx6dnRVZLoqEHvsDPxq9aAsUMjGlAMeIc4WG068X4xnSYnxOwXUn4eP7r9gERwTJTQsZbRXTh1QHRY_1js5i0t_mDgR6yZa-xCQaW6JGfnqo7qLMqAAFgNP-ATeFW3648apSG_LZysR9tvFtvmwwKja6yfHLe5ep7B_IdgAQSwGQyFB-09-HqAvfyq_lWVpabCw",
-        couple: "https://lh3.googleusercontent.com/aida-public/AB6AXuBipMh6OBdHzq8mgMiFQiPKSP5F2KKnrgn-BX707zhG4qZEH8v8vk11eQ_YDqoRs-PVmZLjfEIRrraZdWp8rEWU-BM4MzhQn9DMPrE8oBuzhhT-gguHnU3LHMhz0EmD_RD9I4EOw98u99zQT3N7pR39g4_TCIWiaQqxwiRuD0e4nP71qESH7jh24L0oKGzbt_6qhwoD_JLmPP_LlUjiRKAyxmhxhQ-tDH6sIWA0oqQOB3Avtg7aOvd5ot8gqbJShXsHEEExg4yXVQ",
-        relieved: "https://lh3.googleusercontent.com/aida-public/AB6AXuB8lKpH2pUGA-dP4SLTZmPEU0FTiSuGm7pbC-gCGV817rkLPXcOu5GClINRffEat-h0RnVoj6AHDAH2GOg8gAXt8amfLj65CGG5hi_cnQPbzQ_-lU3dhrBUkka9IDgubezoic9EClCCSlrVjkpL1F4eSd3GDEFj5EUC05XMuZq_f4hxhSjhvUZAmJEpNvyzUDzs9YXhbFacb-jYQO3JDvZ8ucLypHV1Gqd8csnu4A0-68MfVeEoIUN9uDU9crUeUiu8HH0_MxMKDQ"
-    },
+    
     razorpay: "https://lh3.googleusercontent.com/aida-public/AB6AXuA_NKzV33zOQjgXvvYXQ-3ahoOA7LMGu0gFsSL0sYJSXlGYHbQJcXySaP4lsOoPlzDidG8vJTqkuIRgyMp0a_igQ63Q-ZeUNj6Sq-NQOLxPLkiz8JcENENYAzE5dQqqMi6g-JihfrK4d-SvlSmM7XYEB617jvMmnam0B1RYeM90qxzdeZvXMclLe-Ov012ZKiDdKenhhVLSjuezBHXqPHvr_hp7787cYEjiDQ8spvJmIHppbTsEU3GPA6w9uUW250PHWs1c06hJVw",
     security: "https://lh3.googleusercontent.com/aida-public/AB6AXuAf-mZ6m-Ldzmp8-3L2PTERUOUNtV0qvp6TSSdHSG4BNp4IgmQNYAJVqZQDWwTLWEURIb_v3-qYGyK3OEpaGgkOR4HDGgxH1CH-8a2_xKiOA1j_TRM5qeOckyzOpkhEwIRf4NUbj7u8Q1HtNP8hU7JZbzLneIYqmxzH0Perus2fyU4exGH4H3PNlm9yHA2wdygsOx1Y3kzRyLW-5LwItP20Ka7b08L1miTIavrUBxVmpFTwc8WgkB7YlxAhkjZBh--ggnKzkesBBQ"
 };

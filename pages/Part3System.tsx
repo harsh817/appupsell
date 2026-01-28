@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { IMAGES } from '../constants';
+import { IMAGES } from '../constants.ts';
 
 const Part3System: React.FC = () => {
     const [replyMode, setReplyMode] = useState<'flirty' | 'playful' | 'smooth'>('smooth');
@@ -34,9 +35,9 @@ const Part3System: React.FC = () => {
     };
 
     return (
-        <div className="pt-32 px-6 max-w-7xl mx-auto">
+        <div className="pt-20 px-6 max-w-7xl mx-auto">
             {/* Hero */}
-            <div className="grid lg:grid-cols-2 gap-16 items-center mb-40">
+            <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl md:text-6xl font-light text-white leading-tight mb-8 font-display">
                         Introducing: The Complete Texting System That Does the <span className="italic text-primary">Heavy Lifting</span> For You
@@ -65,7 +66,7 @@ const Part3System: React.FC = () => {
             </div>
 
             {/* Part 1 Feature */}
-            <div className="grid lg:grid-cols-2 gap-20 items-center mb-40">
+            <div className="grid lg:grid-cols-2 gap-20 items-center mb-24">
                 <div>
                     <span className="text-primary text-[10px] font-bold tracking-[0.5em] uppercase mb-4 block">Part 1</span>
                     <h2 className="text-4xl font-display text-white mb-8 leading-tight">Professional Texting Analysis (Worth ₹2,500)</h2>
@@ -87,7 +88,7 @@ const Part3System: React.FC = () => {
                     </div>
                 </div>
                 <div className="relative">
-                    <img src={IMAGES.expertWorking} alt="Expert" className="relative rounded-2xl border border-white/10 shadow-2xl w-full aspect-[4/5] object-cover grayscale brightness-75 contrast-125" />
+                    <img src={IMAGES.expertWorking} alt="Expert" className="relative rounded-2xl border border-white/10 shadow-2xl w-full aspect-[4/5] object-cover contrast-125" />
                     <div className="absolute -bottom-6 -left-6 bg-obsidian p-6 rounded-xl border border-white/10 shadow-xl flex items-center gap-4 max-w-xs">
                          <div className="size-12 rounded-full overflow-hidden shrink-0">
                             <img src={IMAGES.expert} alt="Expert Face" className="w-full h-full object-cover" />
@@ -98,7 +99,7 @@ const Part3System: React.FC = () => {
             </div>
 
             {/* Part 2 AI Demo */}
-            <div className="grid lg:grid-cols-2 gap-20 items-center mb-40">
+            <div className="grid lg:grid-cols-2 gap-20 items-center mb-24">
                 <div className="order-2 lg:order-1 relative">
                     <div className="absolute -inset-20 bg-primary/5 rounded-full blur-[100px]"></div>
                     <div className="relative bg-charcoal border border-white/10 rounded-[2rem] p-4 max-w-[350px] mx-auto shadow-2xl">
@@ -161,8 +162,8 @@ const Part3System: React.FC = () => {
             </div>
 
             {/* Testimonials */}
-            <div className="mb-40">
-                <div className="text-center mb-20">
+            <div className="mb-24">
+                <div className="text-center mb-16">
                     <h2 className="text-4xl font-display text-white mb-4">Real Results From Real Guys</h2>
                     <div className="h-px w-24 bg-primary/30 mx-auto"></div>
                 </div>
@@ -173,7 +174,8 @@ const Part3System: React.FC = () => {
                     ].map((t, i) => (
                         <div key={i} className="bg-white/[0.02] border border-white/10 p-10 rounded-2xl hover:border-primary/30 transition-all duration-500 group">
                             <div className="flex items-center gap-5 mb-8">
-                                <img src={t.img} alt={t.name} className="size-16 rounded-xl object-cover grayscale group-hover:grayscale-0 transition-all" />
+                                {/* Removed grayscale */}
+                                <img src={t.img} alt={t.name} className="size-16 rounded-xl object-cover transition-all" />
                                 <div>
                                     <p className="text-white font-display text-xl">{t.name}</p>
                                     <p className="text-[10px] text-white/30 uppercase tracking-[0.2em]">{t.role}</p>
@@ -187,7 +189,7 @@ const Part3System: React.FC = () => {
             </div>
 
             {/* CTA */}
-            <div className="pb-32 text-center">
+            <div className="pb-20 text-center">
                  <div className="bg-gradient-to-br from-primary/20 to-obsidian border border-primary/20 p-16 rounded-[3rem] relative overflow-hidden">
                     <div className="relative z-10">
                         <h3 className="text-4xl md:text-5xl font-display text-white mb-6">Master the Game</h3>
