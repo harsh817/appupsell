@@ -21,28 +21,28 @@ export const IMAGES = {
         "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?q=80&w=200&auto=format&fit=crop"  // Indian guy 3
     ],
     
-    // Mistakes: Explicit Indian Context - Bored Women vs Winning Men
+    // Mistakes: Emotional Reactions - Show consequences of each mistake
     mistakes: [
-        // 1. Too available -> Indian girl looking at phone, annoyed/waiting (saree/kurta hint)
-        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?q=80&w=800&auto=format&fit=crop",
+        // 1. Too available -> Anxious guy constantly checking phone desperately
+        "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop",
         
-        // 2. Interview questions -> Disconnected, looking out of window (Mumbai vibe)
-        "https://images.unsplash.com/photo-1519067756611-654876b001d2?q=80&w=800&auto=format&fit=crop",
-        
-        // 3. Too logical -> CHALLENGE: Intense eye contact from a couple (She's looking at HIM, not you)
-        "https://images.unsplash.com/photo-1596193433486-02333accdc13?q=80&w=800&auto=format&fit=crop",
-        
-        // 4. Not reading energy -> Sassy expression, hand on hip/face (Indian expressive)
+        // 2. Interview questions -> Bored woman receiving generic questions
         "https://images.unsplash.com/photo-1534126416832-7984d1491741?q=80&w=800&auto=format&fit=crop",
         
-        // 5. Overthinking -> Lonely guy vs Confidence (Shadowy, moody)
-        "https://images.unsplash.com/photo-1605369559380-a309ef381405?q=80&w=800&auto=format&fit=crop",
+        // 3. Too logical -> Frustrated guy overanalyzing, missing connection
+        "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=800&auto=format&fit=crop",
         
-        // 6. Not escalating -> CHALLENGE: Indian guy whispering in her ear (Seduction)
-        "https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=800&auto=format&fit=crop",
+        // 4. Not reading energy -> Girl rolling eyes, unimpressed expression
+        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=800&auto=format&fit=crop",
         
-        // 7. Sound like everyone else -> She's walking away into the night (Saree back view)
-        "https://images.unsplash.com/photo-1616002411355-495288961503?q=80&w=800&auto=format&fit=crop"
+        // 5. Overthinking -> Stressed guy paralyzed by decision, hand on head
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
+        
+        // 6. Not escalating -> Disappointed guy watching opportunity pass, friend-zoned
+        "https://images.unsplash.com/photo-1596003906949-67221c37965c?q=80&w=800&auto=format&fit=crop",
+        
+        // 7. Sound like everyone else -> Girl ignoring/deleting generic message, disinterested
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
     ],
     
     // Part 3 Hero: Confident Indian Man

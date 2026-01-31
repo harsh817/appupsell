@@ -1,31 +1,9 @@
 
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
 import { IMAGES } from '../constants.ts';
+import { GlassCard, PrimaryButton, Section, AmbientGlow } from '../components';
 
 const Part3System: React.FC = () => {
-    const [replyMode, setReplyMode] = useState<'flirty' | 'playful' | 'smooth'>('smooth');
-
-    const replyContent = {
-        flirty: {
-            title: "Option 1: Flirty 🔥",
-            barWidth: "w-3/4",
-            color: "bg-pink-500",
-            text: "That dress is trouble. Good thing I like a little danger."
-        },
-        playful: {
-            title: "Option 2: Playful 😎",
-            barWidth: "w-2/3",
-            color: "bg-blue-500",
-            text: "Is this where I'm supposed to say you look cute? Because I was thinking... breathtaking."
-        },
-        smooth: {
-            title: "Option 3: Smooth 💼",
-            barWidth: "w-full",
-            color: "bg-secondary", // Using secondary from config if defined, else fallback style in class
-            text: "Stop looking at me like that or I might just have to cancel my plans and take you out."
-        }
-    };
 
     const scrollToOffer = () => {
         const element = document.getElementById('offer');
@@ -35,29 +13,29 @@ const Part3System: React.FC = () => {
     };
 
     return (
-        <div className="pt-20 px-6 max-w-7xl mx-auto">
+        <Section containerSize="large" spacing="lg">
             {/* Hero */}
-            <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
-                <div className="text-center lg:text-left">
-                    <h1 className="text-5xl md:text-6xl font-light text-white leading-tight mb-8 font-display">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center mb-20 sm:mb-24">
+                <div className="text-center">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight mb-6 sm:mb-8 font-display">
                         Introducing: The Complete Texting System That Does the <span className="italic text-primary">Heavy Lifting</span> For You
                     </h1>
-                    <p className="text-primary font-bold tracking-[0.2em] text-xs uppercase mb-4 bg-primary/10 inline-block px-4 py-2 rounded-lg">
-                        Here's what you're getting for just ₹97:
+                    <p className="text-primary font-bold tracking-[0.15em] sm:tracking-[0.2em] text-[10px] sm:text-xs uppercase mb-4 bg-primary/10 inline-block px-3 sm:px-4 py-2 rounded-lg">
+                        Here's what you're getting for just ₹1,497:
                     </p>
                 </div>
                 <div className="relative">
-                    <div className="absolute -inset-10 bg-primary/10 rounded-full blur-[80px]"></div>
-                    <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
+                    <AmbientGlow color="primary" size="lg" />
+                    <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
                         <img src={IMAGES.part3Hero} alt="Man Smiling" className="w-full aspect-[4/3] object-cover filter sepia-[0.3] contrast-110 brightness-90 transition-all duration-700 group-hover:sepia-0" />
-                        <div className="absolute bottom-6 left-6 right-6">
-                            <div className="bg-white/10 backdrop-blur-xl p-4 rounded-xl flex items-center gap-4 border border-white/20">
-                                <div className="size-10 rounded-full bg-primary/20 flex items-center justify-center">
-                                    <span className="material-symbols-outlined text-primary">bolt</span>
+                        <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">
+                            <div className="bg-white/10 backdrop-blur-xl p-3 sm:p-4 rounded-lg sm:rounded-xl flex items-center gap-3 sm:gap-4 border border-white/20">
+                                <div className="size-8 sm:size-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+                                    <span className="material-symbols-outlined text-primary text-base sm:text-xl">bolt</span>
                                 </div>
                                 <div>
-                                    <p className="text-[10px] text-primary font-bold tracking-widest uppercase">System Active</p>
-                                    <p className="text-xs text-white/80">AI Suggestion: "That's a bold choice..."</p>
+                                    <p className="text-[9px] sm:text-[10px] text-primary font-bold tracking-wider sm:tracking-widest uppercase">System Active</p>
+                                    <p className="text-[10px] sm:text-xs text-white/80 line-clamp-1">AI Suggestion: "That's a bold choice..."</p>
                                 </div>
                             </div>
                         </div>
@@ -68,22 +46,46 @@ const Part3System: React.FC = () => {
             {/* Part 1 Feature */}
             <div className="grid lg:grid-cols-2 gap-20 items-center mb-24">
                 <div>
-                    <span className="text-primary text-[10px] font-bold tracking-[0.5em] uppercase mb-4 block">Part 1</span>
-                    <h2 className="text-4xl font-display text-white mb-8 leading-tight">Professional Texting Analysis (Worth ₹2,500)</h2>
+                    <span className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Part 1</span>
+                    <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">Professional Texting Analysis <span className="text-rosegold italic">(Worth ₹2,500)</span></h2>
                     <div className="space-y-8">
-                        <p className="text-white/70 text-lg leading-relaxed font-light">
-                            Send us screenshots of your conversations. We'll tell you the truth. Even if it stings a little. Because that's how you actually improve.
+                        <p className="text-white/60 text-base leading-relaxed font-light">
+                            Works with WhatsApp, Instagram DM, Bumble, Hinge, Tinder—basically any app where you're texting.
                         </p>
-                        <div className="bg-white/[0.03] border border-white/10 p-8 rounded-2xl space-y-6">
+                        
+                        <div className="bg-white/5 border border-white/10 p-8 rounded-2xl space-y-6">
                             <p className="text-primary text-xs font-bold uppercase tracking-[0.2em]">Within 24-48 hours, you'll get:</p>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {["Detailed breakdown of mistakes", "Specific moments you lost interest", "Better alternatives for weak texts", "Psychological triggers you missed"].map((item, i) => (
+                            <div className="grid grid-cols-1 gap-4">
+                                {[
+                                    "Detailed breakdown of the mistakes that killed the vibe",
+                                    "Exact moments where you lost her interest",
+                                    "Better alternatives for your weak texts",
+                                    "Psychological triggers you missed (but should've hit)",
+                                    "Full personality assessment based on your style",
+                                    "Custom strategy for YOUR texting habits",
+                                    "Proven templates you can use immediately"
+                                ].map((item, i) => (
                                     <div key={i} className="flex items-start gap-3 text-sm text-white/80">
-                                        <span className="material-symbols-outlined text-primary text-lg">check_circle</span>
+                                        <span className="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span>
                                         <span>{item}</span>
                                     </div>
                                 ))}
                             </div>
+                        </div>
+                        
+                        <div className="border-l-2 border-primary/20 pl-6 py-2">
+                            <p className="text-white/60 text-base leading-relaxed font-light italic">
+                                This isn't some automated bot reading your texts. Real dating experts in India—trained in texting psychology—review your convos and deliver personalized feedback.
+                            </p>
+                        </div>
+                        
+                        <div className="space-y-4">
+                            <p className="text-white/60 text-base leading-relaxed font-light">
+                                Send us screenshots of your conversations. We'll tell you the truth. Even if it stings a little.
+                            </p>
+                            <p className="text-white/60 text-base leading-relaxed font-light">
+                                Because that's how you actually improve.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -98,65 +100,120 @@ const Part3System: React.FC = () => {
                 </div>
             </div>
 
-            {/* Part 2 AI Demo */}
-            <div className="grid lg:grid-cols-2 gap-20 items-center mb-24">
-                <div className="order-2 lg:order-1 relative">
-                    <div className="absolute -inset-20 bg-primary/5 rounded-full blur-[100px]"></div>
-                    <div className="relative bg-charcoal border border-white/10 rounded-[2rem] p-4 max-w-[350px] mx-auto shadow-2xl">
-                        <div className="bg-obsidian rounded-[1.5rem] overflow-hidden border border-white/5 h-[500px] flex flex-col">
-                            <div className="p-6 border-b border-white/5 flex justify-between items-center bg-white/[0.02]">
-                                <span className="text-[10px] font-bold tracking-widest text-primary uppercase">AI REPLIES</span>
-                                <span className="material-symbols-outlined text-primary text-lg">bolt</span>
+            {/* Part 2 Feature */}
+            <div className="mb-24">
+                <div>
+                    <span className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Part 2</span>
+                    <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">AI-Powered Reply Generator — 1 Full Year Free <span className="text-rosegold italic">(Worth ₹5,988)</span></h2>
+                    
+                    <div className="space-y-3 mb-10">
+                        <p className="text-white/60 text-xs font-bold uppercase tracking-[0.2em] mb-4">Here's how it works:</p>
+                        {[
+                            "You're chatting with a girl",
+                            "She sends a message... and you're stuck",
+                            "Screenshot it, upload to the app",
+                            "AI analyzes the conversation context",
+                            "Get 3 perfect reply options instantly",
+                            "Pick one, send it, watch her reply faster"
+                        ].map((step, i) => (
+                            <div key={i} className="flex items-start gap-6 p-4 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10 transition-all">
+                                <div className="size-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold border border-primary/20 shrink-0">{i+1}</div>
+                                <p className="text-base text-white/80 pt-1">{step}</p>
                             </div>
-                            <div className="flex-grow p-6 space-y-4">
-                                {/* Options */}
-                                {(['flirty', 'playful', 'smooth'] as const).map((mode) => (
-                                    <div 
-                                        key={mode}
-                                        onClick={() => setReplyMode(mode)}
-                                        className={`p-4 rounded-xl border cursor-pointer transition-all duration-300 ${replyMode === mode ? 'bg-primary/10 border-primary/40' : 'bg-white/5 border-white/5 hover:bg-white/10'}`}
-                                    >
-                                        <div className="flex justify-between mb-2">
-                                            <p className={`text-[9px] uppercase tracking-wider font-bold ${replyMode === mode ? 'text-primary' : 'text-white/40'}`}>
-                                                {replyContent[mode].title}
-                                            </p>
-                                        </div>
-                                        {replyMode === mode && (
-                                            <motion.p 
-                                                initial={{ opacity: 0 }} 
-                                                animate={{ opacity: 1 }} 
-                                                className="text-xs text-white/90 leading-relaxed font-light"
-                                            >
-                                                "{replyContent[mode].text}"
-                                            </motion.p>
-                                        )}
-                                        {replyMode !== mode && <div className={`h-1.5 rounded-full bg-white/10 ${replyContent[mode].barWidth}`}></div>}
-                                    </div>
-                                ))}
-                            </div>
-                            <div className="p-4">
-                                <button className="w-full py-3 bg-primary text-obsidian rounded-xl text-[10px] font-black tracking-widest uppercase hover:bg-white transition-colors">
-                                    Copy Selected
-                                </button>
-                            </div>
+                        ))}
+                    </div>
+                    
+                    <div className="bg-primary/5 border border-primary/10 p-6 rounded-xl mb-8">
+                        <p className="text-white/60 text-base leading-relaxed font-light mb-3">
+                            But this isn't just any AI.
+                        </p>
+                        <p className="text-white/60 text-base leading-relaxed font-light">
+                            It's been trained on successful Indian dating conversations—so it understands cultural context, humor that works here, and the exact vibe Indian girls respond to.
+                        </p>
+                    </div>
+                    
+                    <div className="border-l-2 border-white/10 pl-6 py-2 mb-8">
+                        <p className="text-white/60 text-base leading-relaxed font-light italic">
+                            The replies don't sound robotic. They sound natural. Like something you'd actually say... if you were smoother.
+                        </p>
+                    </div>
+                    
+                    <div className="text-center mb-12">
+                        <p className="text-white/60 text-base leading-relaxed font-light">
+                            Works with WhatsApp, Instagram, Bumble, Hinge, Tinder, Messenger, Snapchat, SMS—basically any app where you're texting.
+                        </p>
+                        <p className="text-white/50 text-sm italic mt-4">
+                            If you can screenshot it, the AI can help you reply to it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why This Works */}
+            <div className="mb-24">
+                <div className="text-center mb-12">
+                    <p className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4">Why This Works</p>
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white mb-4">Why This Works <span className="text-rosegold italic">(When Everything Else Hasn't)</span></h2>
+                    <p className="text-white/60 text-base font-light max-w-2xl mx-auto">
+                        You've probably tried:
+                    </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8 mb-10">
+                    <div className="bg-white/5 border border-white/10 p-8 rounded-2xl space-y-5">
+                        <p className="text-white/60 text-xs font-bold uppercase tracking-[0.2em]">What you already tried</p>
+                        <div className="space-y-4">
+                            {[
+                                "YouTube videos about \"how to text girls\"",
+                                "Reading \"The Game\" and pickup artist books",
+                                "Asking your friends for advice",
+                                "Just \"being yourself\" and hoping for the best"
+                            ].map((item, i) => (
+                                <div key={i} className="flex items-start gap-3 text-base text-white/80">
+                                    <span className="material-symbols-outlined text-primary text-lg shrink-0">close</span>
+                                    <span>{item}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="bg-white/5 border border-white/10 p-8 rounded-2xl space-y-5">
+                        <p className="text-white/60 text-xs font-bold uppercase tracking-[0.2em]">Why those don't work</p>
+                        <div className="space-y-4 text-base text-white/60 font-light leading-relaxed">
+                            <p>YouTube videos give you generic advice that might work in America but doesn't translate to Indian dating culture.</p>
+                            <p>Pickup artist books teach you manipulation tactics that make you sound fake and try-hard.</p>
+                            <p>Your friends mean well, but they're probably just as clueless as you are. Or if they're good at texting, they can't explain WHY they're good at it.</p>
+                            <p>"Being yourself" is great advice... once you know how to be an attractive version of yourself. But nobody tells you how to do that.</p>
                         </div>
                     </div>
                 </div>
-                <div className="order-1 lg:order-2">
-                    <span className="text-primary text-[10px] font-bold tracking-[0.5em] uppercase mb-4 block">Part 2</span>
-                    <h2 className="text-4xl font-display text-white mb-8 leading-tight">AI-Powered Reply Generator — 1 Full Year Free (Worth ₹5,988)</h2>
-                    <div className="space-y-6">
-                        {["You're chatting with a girl", "She sends a message and you're stuck", "Upload screenshot -> Get 3 perfect options"].map((step, i) => (
-                            <div key={i} className="flex items-center gap-6 p-4 bg-white/[0.02] border border-white/5 rounded-xl">
-                                <div className="size-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold border border-primary/20">{i+1}</div>
-                                <p className="text-sm text-white/80">{step}</p>
-                            </div>
-                        ))}
-                    </div>
-                    <div className="mt-8 flex gap-3 flex-wrap">
-                        {['WhatsApp', 'Instagram', 'Bumble', 'Hinge'].map(app => (
-                            <span key={app} className="px-3 py-1 bg-white/5 rounded-full text-[10px] text-white/40 border border-white/5 uppercase">{app}</span>
-                        ))}
+
+                <div className="bg-gradient-to-br from-primary/10 via-white/5 to-obsidian border border-white/10 p-10 rounded-3xl">
+                    <div className="max-w-4xl mx-auto space-y-8">
+                        <div className="text-center">
+                            <p className="text-primary text-xs font-bold uppercase tracking-[0.2em] mb-3">This system is different</p>
+                            <h3 className="text-2xl sm:text-3xl md:text-4xl font-display text-white">Practical help, <span className="text-rosegold italic">right when you need it</span></h3>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-6">
+                            {[
+                                "Trained on Indian conversations with Indian girls",
+                                "Gives you instant help in the moment you need it",
+                                "Shows you what works AND why it works",
+                                "Doesn't try to change who you are, just makes you better at expressing it",
+                                "Works for shy guys, extroverted guys, and everyone in between"
+                            ].map((item, i) => (
+                                <div key={i} className="flex items-start gap-3 text-base text-white/80">
+                                    <span className="material-symbols-outlined text-primary text-lg shrink-0">check_circle</span>
+                                    <span>{item}</span>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="space-y-4 text-white/60 text-base font-light leading-relaxed">
+                            <p>You're not learning theory. You're getting practical, in-the-moment help.</p>
+                            <p>And you're learning by doing. Every time you use the app, you're seeing what works. Your brain starts to pick up the patterns.</p>
+                            <p>Eventually? You won't even need the app as much. Because you'll have internalized the skills.</p>
+                            <p>But until then, you've got backup. 24/7.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,7 +221,7 @@ const Part3System: React.FC = () => {
             {/* Testimonials */}
             <div className="mb-24">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-display text-white mb-4">Real Results From Real Guys</h2>
+                    <h2 className="text-3xl sm:text-4xl font-display text-white mb-4">Real Results From <span className="text-rosegold italic">Real Guys</span></h2>
                     <div className="h-px w-24 bg-primary/30 mx-auto"></div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
@@ -172,39 +229,24 @@ const Part3System: React.FC = () => {
                         { name: "Rahul M.", role: "Software Engineer", img: IMAGES.testimonials[0], text: "I used to get matches but they would always fizzle out. The analysis showed me I was being too safe. Once I started using the AI to spice things up, I booked 3 dates in one week." },
                         { name: "Arjun K.", role: "Verified User", img: IMAGES.testimonials[1], text: "The AI replies are actually scary good. They don't sound like a bot—they sound like me on my best day. It's taught me more about how to talk to women than any 'dating coach' ever did." }
                     ].map((t, i) => (
-                        <div key={i} className="bg-white/[0.02] border border-white/10 p-10 rounded-2xl hover:border-primary/30 transition-all duration-500 group">
+                        <div key={i} className="bg-white/5 border border-white/10 p-10 rounded-2xl hover:border-primary/30 transition-all duration-500 group">
                             <div className="flex items-center gap-5 mb-8">
-                                {/* Removed grayscale */}
                                 <img src={t.img} alt={t.name} className="size-16 rounded-xl object-cover transition-all" />
                                 <div>
                                     <p className="text-white font-display text-xl">{t.name}</p>
-                                    <p className="text-[10px] text-white/30 uppercase tracking-[0.2em]">{t.role}</p>
-                                    <div className="flex gap-1 mt-2 text-primary text-[10px]">★★★★★</div>
+                                    <p className="text-xs text-white/40 uppercase tracking-[0.15em]">{t.role}</p>
+                                    <div className="flex gap-1 mt-2 text-primary text-xs">★★★★★</div>
                                 </div>
                             </div>
-                            <p className="text-white/80 font-light italic leading-relaxed">"{t.text}"</p>
+                            <p className="text-white/60 text-base font-light italic leading-relaxed">"{t.text}"</p>
                         </div>
                     ))}
                 </div>
             </div>
-
-            {/* CTA */}
-            <div className="pb-20 text-center">
-                 <div className="bg-gradient-to-br from-primary/20 to-obsidian border border-primary/20 p-16 rounded-[3rem] relative overflow-hidden">
-                    <div className="relative z-10">
-                        <h3 className="text-4xl md:text-5xl font-display text-white mb-6">Master the Game</h3>
-                        <p className="text-white/60 text-lg font-light mb-12 max-w-2xl mx-auto">Join 12,000+ men who have unlocked their digital charisma.</p>
-                        <button 
-                            onClick={scrollToOffer}
-                            className="px-12 py-5 bg-primary text-obsidian rounded-full text-xs font-bold tracking-[0.4em] uppercase hover:scale-105 transition-transform shadow-[0_0_40px_rgba(255,75,110,0.4)]"
-                        >
-                            Access The Complete System
-                        </button>
-                    </div>
-                 </div>
-            </div>
-        </div>
+        </Section>
     );
 };
 
 export default Part3System;
+
+
