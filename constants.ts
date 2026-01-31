@@ -24,25 +24,25 @@ export const IMAGES = {
     // Mistakes: Emotional Reactions - Show consequences of each mistake
     mistakes: [
         // 1. Too available -> Anxious guy constantly checking phone desperately
-        "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877985/Gemini_Generated_Image_eb000yeb000yeb00_-_Edited_kkifip.png",
         
         // 2. Interview questions -> Bored woman receiving generic questions
-        "https://images.unsplash.com/photo-1534126416832-7984d1491741?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877980/Gemini_Generated_Image_2geru2geru2geru2_-_Edited_xirfrs.png",
         
         // 3. Too logical -> Frustrated guy overanalyzing, missing connection
-        "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877980/Gemini_Generated_Image_q9lb4mq9lb4mq9lb_-_Edited_alcnpw.png",
         
         // 4. Not reading energy -> Girl rolling eyes, unimpressed expression
-        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769878007/Gemini_Generated_Image_53ojsv53ojsv53oj_-_Edited_sijymi.png",
         
         // 5. Overthinking -> Stressed guy paralyzed by decision, hand on head
-        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877988/Gemini_Generated_Image_oojp79oojp79oojp_-_Edited_r2l61r.png",
         
         // 6. Not escalating -> Disappointed guy watching opportunity pass, friend-zoned
-        "https://images.unsplash.com/photo-1596003906949-67221c37965c?q=80&w=800&auto=format&fit=crop",
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877979/Gemini_Generated_Image_n71lg0n71lg0n71l_-_Edited_fxrr5g.png",
         
         // 7. Sound like everyone else -> Girl ignoring/deleting generic message, disinterested
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
+        "https://res.cloudinary.com/dm49wi6j4/image/upload/v1769877980/Gemini_Generated_Image_2yhbyw2yhbyw2yhb_1_p1jbtp.png"
     ],
     
     // Part 3 Hero: Confident Indian Man
