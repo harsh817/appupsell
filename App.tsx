@@ -1,4 +1,4 @@
-// Test Hostinger deployment
+// Test Hostinger deployment with updated FTP server
 import React, { lazy, Suspense } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout.tsx';
