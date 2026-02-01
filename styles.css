@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Mobile-optimized custom styles */
 
 /* Ensure proper touch targets for mobile (minimum 44x44 pixels) */
@@ -146,12 +150,6 @@ a:focus-visible {
     word-wrap: break-word;
     hyphens: auto;
   }
-}
-
-/* Optimize performance on mobile */
-* {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 /* Reduce motion for users who prefer it */

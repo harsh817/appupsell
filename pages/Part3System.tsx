@@ -27,18 +27,7 @@ const Part3System: React.FC = () => {
                 <div className="relative">
                     <AmbientGlow color="primary" size="lg" />
                     <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-                        <img src={IMAGES.part3Hero} alt="Man Smiling" className="w-full aspect-[4/3] object-cover filter sepia-[0.3] contrast-110 brightness-90 transition-all duration-700 group-hover:sepia-0" />
-                        <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">
-                            <div className="bg-white/10 backdrop-blur-xl p-3 sm:p-4 rounded-lg sm:rounded-xl flex items-center gap-3 sm:gap-4 border border-white/20">
-                                <div className="size-8 sm:size-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
-                                    <span className="material-symbols-outlined text-primary text-base sm:text-xl">bolt</span>
-                                </div>
-                                <div>
-                                    <p className="text-[9px] sm:text-[10px] text-primary font-bold tracking-wider sm:tracking-widest uppercase">System Active</p>
-                                    <p className="text-[10px] sm:text-xs text-white/80 line-clamp-1">AI Suggestion: "That's a bold choice..."</p>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="https://res.cloudinary.com/dm49wi6j4/image/upload/v1769880591/Gemini_Generated_Image_s044u4s044u4s044_-_Edited_huyjwz.webp" alt="Man Smiling" className="w-full aspect-[4/3] object-cover filter sepia-[0.3] contrast-110 brightness-90 transition-all duration-700 group-hover:sepia-0" width="1200" height="900" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -90,13 +79,7 @@ const Part3System: React.FC = () => {
                     </div>
                 </div>
                 <div className="relative">
-                    <img src={IMAGES.expertWorking} alt="Expert" className="relative rounded-2xl border border-white/10 shadow-2xl w-full aspect-[4/5] object-cover contrast-125" />
-                    <div className="absolute -bottom-6 -left-6 bg-obsidian p-6 rounded-xl border border-white/10 shadow-xl flex items-center gap-4 max-w-xs">
-                         <div className="size-12 rounded-full overflow-hidden shrink-0">
-                            <img src={IMAGES.expert} alt="Expert Face" className="w-full h-full object-cover" />
-                         </div>
-                         <p className="text-xs text-white/60 italic">"Real human experts trained in conversation psychology review your chats."</p>
-                    </div>
+                    <img src="https://res.cloudinary.com/dm49wi6j4/image/upload/f_auto,q_auto:best,w_1200/v1769880463/Gemini_Generated_Image_1lnhzm1lnhzm1lnh_-_Edited_esktwp.png" alt="Expert" className="relative rounded-2xl border border-white/10 shadow-2xl w-full aspect-[16/9] object-cover" width="1200" height="675" loading="lazy" />
                 </div>
             </div>
 
@@ -104,17 +87,17 @@ const Part3System: React.FC = () => {
             <div className="mb-24">
                 <div>
                     <span className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Part 2</span>
-                    <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">AI-Powered Reply Generator — 1 Full Year Free <span className="text-rosegold italic">(Worth ₹5,988)</span></h2>
+                    <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">Your AI Dating Coach — Writes Replies For You & <span className="text-rosegold italic">Gets You More Dates (Worth ₹5,988)</span></h2>
                     
                     <div className="space-y-3 mb-10">
                         <p className="text-white/60 text-xs font-bold uppercase tracking-[0.2em] mb-4">Here's how it works:</p>
                         {[
-                            "You're chatting with a girl",
-                            "She sends a message... and you're stuck",
+                            "You're texting a girl you like",
+                            "She sends a message... and you don't know what to say",
                             "Screenshot it, upload to the app",
-                            "AI analyzes the conversation context",
-                            "Get 3 perfect reply options instantly",
-                            "Pick one, send it, watch her reply faster"
+                            "AI reads the conversation and understands her vibe",
+                            "Get 3 personality-matched reply options in seconds",
+                            "Pick one, send it, and watch her invest more"
                         ].map((step, i) => (
                             <div key={i} className="flex items-start gap-6 p-4 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10 transition-all">
                                 <div className="size-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs font-bold border border-primary/20 shrink-0">{i+1}</div>
@@ -125,25 +108,25 @@ const Part3System: React.FC = () => {
                     
                     <div className="bg-primary/5 border border-primary/10 p-6 rounded-xl mb-8">
                         <p className="text-white/60 text-base leading-relaxed font-light mb-3">
-                            But this isn't just any AI.
+                            This isn't generic AI.
                         </p>
                         <p className="text-white/60 text-base leading-relaxed font-light">
-                            It's been trained on successful Indian dating conversations—so it understands cultural context, humor that works here, and the exact vibe Indian girls respond to.
+                            It's trained on thousands of successful Indian dating conversations—so it understands local humor, cultural nuance, and the exact tone Indian women respond to.
                         </p>
                     </div>
                     
                     <div className="border-l-2 border-white/10 pl-6 py-2 mb-8">
                         <p className="text-white/60 text-base leading-relaxed font-light italic">
-                            The replies don't sound robotic. They sound natural. Like something you'd actually say... if you were smoother.
+                            The replies don't sound robotic or cringe. They sound like you... on your best day.
                         </p>
                     </div>
                     
                     <div className="text-center mb-12">
                         <p className="text-white/60 text-base leading-relaxed font-light">
-                            Works with WhatsApp, Instagram, Bumble, Hinge, Tinder, Messenger, Snapchat, SMS—basically any app where you're texting.
+                            Works with WhatsApp, Instagram, Bumble, Hinge, Tinder, Messenger—any app where you text.
                         </p>
                         <p className="text-white/50 text-sm italic mt-4">
-                            If you can screenshot it, the AI can help you reply to it.
+                            If you can screenshot it, the AI can coach you through it.
                         </p>
                     </div>
                 </div>
@@ -231,7 +214,7 @@ const Part3System: React.FC = () => {
                     ].map((t, i) => (
                         <div key={i} className="bg-white/5 border border-white/10 p-10 rounded-2xl hover:border-primary/30 transition-all duration-500 group">
                             <div className="flex items-center gap-5 mb-8">
-                                <img src={t.img} alt={t.name} className="size-16 rounded-xl object-cover transition-all" />
+                                <img src={t.img} alt={t.name} className="size-16 rounded-xl object-cover transition-all" width="64" height="64" loading="lazy" />
                                 <div>
                                     <p className="text-white font-display text-xl">{t.name}</p>
                                     <p className="text-xs text-white/40 uppercase tracking-[0.15em]">{t.role}</p>

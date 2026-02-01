@@ -21,7 +21,7 @@ const Part1Hook: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/80 to-obsidian z-10"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/50 to-obsidian z-10"></div>
                     {/* Updated background image: Higher opacity and no grayscale to show the gold/seductive tones */}
-                    <img src={IMAGES.heroBg} alt="Background" className="w-full h-full object-cover opacity-20" />
+                    <img src={IMAGES.heroBg} alt="Background" className="w-full h-full object-cover opacity-20" width="2550" height="1700" loading="eager" />
                 </div>
 
                 <div className="relative z-10 max-w-5xl mx-auto w-full">
@@ -53,7 +53,7 @@ const Part1Hook: React.FC = () => {
 
                     <div className="flex flex-col items-center sm:items-start gap-6 sm:gap-8">
                         <PrimaryButton
-                            onClick={scrollToMistakes}
+                            href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                             size="lg"
                         >
                             Unlock the Secret Hack
@@ -65,7 +65,7 @@ const Part1Hook: React.FC = () => {
             {/* The Diagnosis Section */}
             <section className="relative py-24 border-t border-white/5 px-6 md:px-20 overflow-hidden">
                 <div className="absolute inset-0 z-0 opacity-20">
-                    <img src={IMAGES.cityStreet} alt="Street" className="w-full h-full object-cover grayscale" />
+                    <img src={IMAGES.cityStreet} alt="Street" className="w-full h-full object-cover grayscale" width="2531" height="1688" loading="lazy" />
                     <div className="absolute inset-0 bg-gradient-to-b from-obsidian via-transparent to-obsidian"></div>
                 </div>
 

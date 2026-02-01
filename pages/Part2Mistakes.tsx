@@ -10,7 +10,7 @@ const MistakeCard: React.FC<{ num: string; title: string; desc: string; img: str
         </span>
         <div className="relative z-10 w-full h-40 sm:h-48 rounded-lg overflow-hidden mb-6 sm:mb-8 border border-white/10">
             {/* Removed grayscale to let Indian skin tones and seductive colors shine */}
-            <img src={img} alt={title} className="w-full h-full object-cover brightness-75 group-hover:brightness-100 group-hover:scale-110 transition-all duration-700" />
+            <img src={img} alt={title} className="w-full h-full object-cover brightness-75 group-hover:brightness-100 group-hover:scale-110 transition-all duration-700" width="800" height="600" loading="lazy" />
             {overlayText && (
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-8 pb-3 px-4">
                     <p className="text-[10px] sm:text-xs uppercase tracking-[0.3em] font-bold text-white/90">{overlayText}</p>
@@ -230,7 +230,7 @@ const Part2Mistakes: React.FC = () => {
                     <p className="text-rosegold font-medium italic">But safe doesn't spark attraction.</p>
                 </div>
                 <PrimaryButton
-                    onClick={scrollToSystem}
+                    href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                     size="md"
                 >
                     Stop Making Mistakes

@@ -112,7 +112,7 @@ const Part4Offer: React.FC = () => {
 
                     <div className="mt-10 pt-8 border-t border-white/10">
                         <PrimaryButton
-                            onClick={handlePurchase}
+                            href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                             size="lg"
                             fullWidth
                         >
@@ -120,8 +120,8 @@ const Part4Offer: React.FC = () => {
                         </PrimaryButton>
                         
                         <div className="flex justify-center gap-4 sm:gap-6 mt-5 sm:mt-6 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
-                             <img src={IMAGES.razorpay} alt="Razorpay" className="h-4 sm:h-5" />
-                             <img src={IMAGES.security} alt="Security" className="h-4 sm:h-5" />
+                             <img src={IMAGES.razorpay} alt="Razorpay" className="h-4 sm:h-5" width="80" height="20" loading="lazy" />
+                             <img src={IMAGES.security} alt="Security" className="h-4 sm:h-5" width="80" height="20" loading="lazy" />
                         </div>
                     </div>
                 </GlassCard>
@@ -389,7 +389,7 @@ const Part4Offer: React.FC = () => {
 
                         <div className="text-center mb-6">
                             <PrimaryButton
-                                href="#checkout"
+                                href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                                 size="lg"
                                 className="gap-3"
                             >
@@ -520,7 +520,7 @@ const Part4Offer: React.FC = () => {
 
                         <div className="text-center">
                             <PrimaryButton
-                                href="#offer"
+                                href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                                 size="lg"
                                 className="gap-3"
                             >
@@ -556,7 +556,7 @@ const Part4Offer: React.FC = () => {
                         {/* Final CTA Button */}
                         <div className="pt-8">
                             <PrimaryButton
-                                href="#offer"
+                                href="https://bondstyle.thriveonp.com/checkout-upgrade-1"
                                 size="lg"
                                 fullWidth
                             >

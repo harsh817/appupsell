@@ -26,7 +26,7 @@ export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
     };
 
     const baseClasses = `
-        group relative inline-flex items-center justify-center
+        group relative inline-flex items-center justify-center text-center
         ${variant === 'primary' ? 'bg-primary' : 'bg-gradient-to-r from-primary to-primary/90'}
         text-obsidian 
         rounded-xl 
@@ -44,7 +44,7 @@ export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
 
     const content = (
         <>
-            <div className="relative z-10 flex items-center justify-center">{children}</div>
+            <span className="relative z-10 block w-full text-center">{children}</span>
             <div className="absolute inset-0 bg-white/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </>
     );
