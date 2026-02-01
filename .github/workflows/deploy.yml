@@ -35,4 +35,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
         server-dir: ./public_html/static-files/
-        port: 21        log-level: verbose
+        port: 21
