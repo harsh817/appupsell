@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/
-          server-dir: ./textgood/
+          server-dir: ./public_html/textgood/
           dangerous-clean-slate: false
           exclude: |
             **/.git*
