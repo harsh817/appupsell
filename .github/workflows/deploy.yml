@@ -31,8 +31,8 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: dist/
-          server-dir: textgood/
-          dangerous-clean-slate: false
+          server-dir: /textgood/
+          state-name: .ftp-deploy-sync-state-textgood.json
           exclude: |
             **/.git*
             **/.git*/**
