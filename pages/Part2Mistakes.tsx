@@ -49,7 +49,7 @@ const Part2Mistakes: React.FC = () => {
                 <div className="relative group perspective-1000">
                     <AmbientGlow color="primary" size="lg" className="group-hover:opacity-100" />
                     
-                    <div className="relative rounded-[2.5rem] w-full aspect-[4/5] bg-obsidian border border-white/10 shadow-2xl rotate-2 overflow-hidden flex flex-col hover:rotate-0 transition-transform duration-700">
+                    <div className="relative rounded-[2.5rem] w-full aspect-[4/5] bg-obsidian border border-white/10 shadow-2xl rotate-0 md:rotate-2 overflow-hidden flex flex-col hover:rotate-0 transition-transform duration-700">
                         {/* Status Bar */}
                         <div className="px-8 py-5 flex justify-between items-center bg-white/[0.02] border-b border-white/5">
                             <span className="text-[10px] text-white/40 font-medium font-mono">22:41</span>

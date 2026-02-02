@@ -31,7 +31,7 @@ const Part1Hook: React.FC = () => {
                         transition={{ duration: 1, ease: "easeOut" }}
                     >
                         <h1 className="text-center text-4xl leading-[1.1] sm:text-5xl md:text-6xl font-display font-light text-white tracking-tight mb-4 sm:mb-6 md:mb-8">
-                            Stop Getting <br className="sm:hidden"/>Left on <span className="font-display italic text-primary seen-glow lowercase whitespace-nowrap">"seen"</span>
+                            Stop Getting <br className="sm:hidden"/>Left on <span className="font-display italic text-primary seen-glow lowercase">"seen"</span>
                         </h1>
                         <p className="text-center text-lg sm:text-xl md:text-2xl lg:text-3xl text-white/80 font-sans font-light leading-snug mb-5 sm:mb-6 md:mb-8">
                             Get Replies That Actually Lead to Dates
@@ -129,7 +129,7 @@ const Part1Hook: React.FC = () => {
                              <div className="absolute -inset-4 bg-primary/20 blur-3xl rounded-full opacity-30 group-hover:opacity-50 transition-opacity"></div>
                              
                              {/* Lock Screen UI Mockup */}
-                             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl rotate-3 transform transition-transform group-hover:rotate-0 duration-700 bg-gray-900 aspect-[4/5] flex flex-col">
+                             <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl rotate-0 md:rotate-3 transform transition-transform group-hover:rotate-0 duration-700 bg-gray-900 aspect-[4/5] flex flex-col">
                                 {/* Lock Screen Background */}
                                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-40"></div>
                                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-transparent to-black/40"></div>

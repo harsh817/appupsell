@@ -35,7 +35,7 @@ const Part3System: React.FC = () => {
             {/* Part 1 Feature */}
             <div className="grid lg:grid-cols-2 gap-20 items-center mb-24">
                 <div>
-                    <span className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Part 1</span>
+                    <span className="text-primary text-xs font-bold tracking-[0.1em] sm:tracking-[0.15em] md:tracking-[0.2em] uppercase mb-4 block">Part 1</span>
                     <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">Professional Texting Analysis <span className="text-rosegold italic">(Worth ₹2,500)</span></h2>
                     <div className="space-y-8">
                         <p className="text-white/60 text-base leading-relaxed font-light">
@@ -86,7 +86,7 @@ const Part3System: React.FC = () => {
             {/* Part 2 Feature */}
             <div className="mb-24">
                 <div>
-                    <span className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Part 2</span>
+                    <span className="text-primary text-xs font-bold tracking-[0.1em] sm:tracking-[0.15em] md:tracking-[0.2em] uppercase mb-4 block">Part 2</span>
                     <h2 className="text-3xl sm:text-4xl font-display text-white mb-8 leading-tight">Your AI Dating Coach — Writes Replies For You & <span className="text-rosegold italic">Gets You More Dates (Worth ₹5,988)</span></h2>
                     
                     <div className="space-y-3 mb-10">
@@ -135,7 +135,7 @@ const Part3System: React.FC = () => {
             {/* Why This Works */}
             <div className="mb-24">
                 <div className="text-center mb-12">
-                    <p className="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4">Why This Works</p>
+                    <p className="text-primary text-xs font-bold tracking-[0.1em] sm:tracking-[0.15em] md:tracking-[0.2em] uppercase mb-4">Why This Works</p>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white mb-4">Why This Works <span className="text-rosegold italic">(When Everything Else Hasn't)</span></h2>
                     <p className="text-white/60 text-base font-light max-w-2xl mx-auto">
                         You've probably tried:

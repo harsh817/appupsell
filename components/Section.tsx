@@ -32,6 +32,8 @@ export const Section: React.FC<SectionProps> = ({
             px-4 sm:px-6 
             ${containerClasses[containerSize]} 
             mx-auto
+            max-w-full
+            overflow-x-hidden
             ${className}
         `}>
             {children}

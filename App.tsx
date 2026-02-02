@@ -12,7 +12,7 @@ const Part4Offer = lazy(() => import('./pages/Part4Offer.tsx'));
 
 const LandingPage = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col overflow-x-hidden">
             <div id="hook">
                 <Part1Hook />
             </div>
