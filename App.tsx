@@ -1,5 +1,5 @@
 // Test Hostinger deployment with IP address FTP server
-// Testing GitHub secrets configuration - build #15
+// Testing GitHub secrets configuration - build #18 (fixed build error)
 import React, { lazy, Suspense } from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout.tsx';
