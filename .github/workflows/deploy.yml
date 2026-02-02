@@ -27,8 +27,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_HOST }} # e.g. ftp.thriveonp.com or server hostname
-          username: ${{ secrets.FTP_USER }} # your FTP username WITHOUT special chars
-          password: ${{ secrets.FTP_PASS }} # your FTP password
-          local-dir: dist # Vite build output
-          server-dir: ./ # FTP root is already public_html/textgood
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: dist/ # note the trailing /
+          server-dir: ./ # FTP root = public_html/textgood
